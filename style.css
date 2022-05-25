@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+button{
+    cursor: pointer;
+}
+button:hover{
+    color: gray;
+}
 html{
     width: 100%;
     height: 100vh;
@@ -51,6 +57,7 @@ body{
 }
 .header-logo i{
     margin-top: .2rem;
+    color: red;
 }
 .header-logo a{
 
@@ -58,7 +65,7 @@ body{
     margin-top: 1.2rem;
     font-size: 1.7rem;
     text-decoration: none;
-    color: red;
+    color: black;
     text-align: center;
     justify-content: center;
 
@@ -66,7 +73,7 @@ body{
 
 .input-header input{
     text-align: left;
-    padding: 1px 0px;
+    padding: 1px 10px;
     width: 525px;
     height: 45px;
 
@@ -105,6 +112,10 @@ body{
     border: none;
     border-radius: 50%;
     background-color: transparent;
+}
+.sag-teref button i{
+    color: gray;
+   
 }
 .section-sol{
     width: 270px;
@@ -160,6 +171,10 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     border: none;
 }
+.scroll-menu .all-button{
+    background-color: black;
+    color: #fff;
+}
 .chanel-img img{
     margin-top: 0rem;
     width: 30px;
@@ -178,8 +193,8 @@ body{
 }
 .chanel-name h5{
     font-size: 1rem;
-    margin-left: 1rem;
-    margin-top:0rem;
+    margin-left: .5rem;
+    margin-top:.5rem;
     text-align: center;
     justify-content: center;
 }
@@ -190,4 +205,51 @@ h3{
     font-size: .9rem;
     text-transform: uppercase;
     color: gray;
+}
+
+
+.video-container{
+    margin-top: 2rem;
+    width: 80%;
+   float: right;
+  background-color: rgba(128, 128, 128, 0.212);
+    height: 280px;
+    display: flex;
+}
+.video-container2{
+    margin-top: 1rem;
+}
+.video-img-container{
+    width: 280px;
+    height: 150px;
+    padding: .5rem .2rem;
+    margin-right: 1rem;
+    position: relative;
+}
+.video-img-container img{
+    width: 280px;
+    height: 150px;
+    background-size: contain;
+}
+.video-img-container .span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    background-color: black;
+}
+.video-img-container h5{
+    text-align: left;
+    margin-top: .5rem;
+    margin-left: .4rem;
+    font-size: .9rem;
+    color: rgb(44, 43, 43);
+
+}
+.video-img-container span{
+    margin-left: .5rem;
+    font-size: .9rem;
+}
+.video-img-container .video-name{
+    color: black;
 }
